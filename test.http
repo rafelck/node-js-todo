@@ -1,0 +1,30 @@
+GET http://localhost:7000
+
+###
+
+POST http://localhost:7000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "todo": "meeting aja"
+}
+
+###
+PUT http://localhost:7000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 2,
+  "todo": "menikah"
+}
+
+###
+DELETE http://localhost:7000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 0
+}
